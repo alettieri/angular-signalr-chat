@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html ng-app="app" ng-controller="AppController as appCtrl">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title ng-bind="appCtrl.title"></title>
+	@Styles.Render("~/css/app")
+</head>
+<body>
+	
+	<main class="container" ng-controller="MessageController as msgCtrl">
+		<div class="row">
+			<section class="col-md-12">
+				<form class="panel panel-default" ng-submit="msgCtrl.sendMessage()">
+					<div class="panel-heading">
+						<i class="glyphicon glyphicon-flash text-success" ng-class="{ 'text-warning': appCtrl.connectionStatus.isReconnecting(), 'text-danger': appCtrl.connectionStatus.isDisconnected() }"></i> Chat App
+						<span class="pull-right"><i class="glyphicon glyphicon-user"></i> <span ng-bind="appCtrl.usersOnline">?</span></span>
+					</div>s
+					<div class="panel-body form-group">
+						<input type="text" class="form-control" ng-model="msgCtrl.message" placeholder="Enter message" />
+					</div>
+					<ul class="list-group">
+						<li class="list-group-item" ng-repeat="message in msgCtrl.messages" ng-class="{ 'is-me' : message.from === 'me' }">
+							<strong>{{message.from}}</strong>: {{ message.txt }}
+						</li>
+					</ul>
+				</form>
+			</section>
+		</div>
+	</main>
+
+	@Scripts.Render("~/js/vendor")
+	@Scripts.Render("~/js/app")
+</body>
+</html>
