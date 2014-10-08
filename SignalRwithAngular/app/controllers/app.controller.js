@@ -30,8 +30,6 @@
 			self.usersOnline = count;
 		}
 
-
-
 		// Receive the sendUserCount event from the AppHub
 		AppHub.on('sendUserCount', updateCount);
 

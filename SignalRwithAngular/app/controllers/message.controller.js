@@ -41,7 +41,6 @@
 			self.message = '';
 		};
 
-
 		// Listen to the Hub event for new messages.
 		// Notice, we're not calling $apply here.
 		// This is handled for us by the MessageHub.
@@ -49,7 +48,6 @@
 		MessageHub.on('addMessage', function (message) {
 			addMessage({ from: 'others', txt: message });
 		});
-
 
 	}
 
