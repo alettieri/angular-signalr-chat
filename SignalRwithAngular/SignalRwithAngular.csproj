@@ -212,14 +212,9 @@
     <Content Include="assets\vendor\bootstrap\js\tab.js" />
     <Content Include="assets\vendor\bootstrap\js\tooltip.js" />
     <Content Include="assets\vendor\bootstrap\js\transition.js" />
-    <Content Include="assets\vendor\jquery\.gitattributes" />
-    <Content Include="assets\vendor\jquery\.gitignore" />
-    <Content Include="assets\vendor\jquery\.gitmodules" />
     <Content Include="assets\vendor\jquery\AUTHORS.txt" />
     <Content Include="assets\vendor\jquery\build\release-notes.js" />
     <Content Include="assets\vendor\jquery\build\release.js" />
-    <Content Include="assets\vendor\jquery\dist\jquery.js" />
-    <Content Include="assets\vendor\jquery\dist\jquery.min.js" />
     <Content Include="assets\vendor\jquery\Gruntfile.js" />
     <Content Include="assets\vendor\jquery\jquery-migrate.js" />
     <Content Include="assets\vendor\jquery\jquery-migrate.min.js" />
@@ -239,85 +234,29 @@
     <Content Include="assets\vendor\jquery\speed\slice.vs.concat.html" />
     <Content Include="assets\vendor\jquery\src\ajax.js" />
     <Content Include="assets\vendor\jquery\src\ajax\jsonp.js" />
-    <Content Include="assets\vendor\jquery\src\ajax\load.js" />
-    <Content Include="assets\vendor\jquery\src\ajax\parseJSON.js" />
-    <Content Include="assets\vendor\jquery\src\ajax\parseXML.js" />
     <Content Include="assets\vendor\jquery\src\ajax\script.js" />
-    <Content Include="assets\vendor\jquery\src\ajax\var\nonce.js" />
-    <Content Include="assets\vendor\jquery\src\ajax\var\rquery.js" />
     <Content Include="assets\vendor\jquery\src\ajax\xhr.js" />
     <Content Include="assets\vendor\jquery\src\attributes.js" />
-    <Content Include="assets\vendor\jquery\src\attributes\attr.js" />
-    <Content Include="assets\vendor\jquery\src\attributes\classes.js" />
-    <Content Include="assets\vendor\jquery\src\attributes\prop.js" />
-    <Content Include="assets\vendor\jquery\src\attributes\support.js" />
-    <Content Include="assets\vendor\jquery\src\attributes\val.js" />
     <Content Include="assets\vendor\jquery\src\callbacks.js" />
     <Content Include="assets\vendor\jquery\src\core.js" />
-    <Content Include="assets\vendor\jquery\src\core\access.js" />
-    <Content Include="assets\vendor\jquery\src\core\init.js" />
-    <Content Include="assets\vendor\jquery\src\core\parseHTML.js" />
-    <Content Include="assets\vendor\jquery\src\core\ready.js" />
-    <Content Include="assets\vendor\jquery\src\core\var\rsingleTag.js" />
     <Content Include="assets\vendor\jquery\src\css.js" />
-    <Content Include="assets\vendor\jquery\src\css\addGetHookIf.js" />
-    <Content Include="assets\vendor\jquery\src\css\curCSS.js" />
-    <Content Include="assets\vendor\jquery\src\css\defaultDisplay.js" />
-    <Content Include="assets\vendor\jquery\src\css\hiddenVisibleSelectors.js" />
-    <Content Include="assets\vendor\jquery\src\css\support.js" />
-    <Content Include="assets\vendor\jquery\src\css\swap.js" />
-    <Content Include="assets\vendor\jquery\src\css\var\cssExpand.js" />
-    <Content Include="assets\vendor\jquery\src\css\var\getStyles.js" />
-    <Content Include="assets\vendor\jquery\src\css\var\isHidden.js" />
-    <Content Include="assets\vendor\jquery\src\css\var\rmargin.js" />
-    <Content Include="assets\vendor\jquery\src\css\var\rnumnonpx.js" />
     <Content Include="assets\vendor\jquery\src\data.js" />
-    <Content Include="assets\vendor\jquery\src\data\accepts.js" />
-    <Content Include="assets\vendor\jquery\src\data\Data.js" />
-    <Content Include="assets\vendor\jquery\src\data\var\data_priv.js" />
-    <Content Include="assets\vendor\jquery\src\data\var\data_user.js" />
     <Content Include="assets\vendor\jquery\src\deferred.js" />
     <Content Include="assets\vendor\jquery\src\deprecated.js" />
     <Content Include="assets\vendor\jquery\src\dimensions.js" />
     <Content Include="assets\vendor\jquery\src\effects.js" />
-    <Content Include="assets\vendor\jquery\src\effects\animatedSelector.js" />
-    <Content Include="assets\vendor\jquery\src\effects\Tween.js" />
+    <Content Include="assets\vendor\jquery\src\event-alias.js" />
     <Content Include="assets\vendor\jquery\src\event.js" />
-    <Content Include="assets\vendor\jquery\src\event\alias.js" />
-    <Content Include="assets\vendor\jquery\src\event\support.js" />
-    <Content Include="assets\vendor\jquery\src\exports\amd.js" />
-    <Content Include="assets\vendor\jquery\src\exports\global.js" />
+    <Content Include="assets\vendor\jquery\src\exports.js" />
     <Content Include="assets\vendor\jquery\src\intro.js" />
-    <Content Include="assets\vendor\jquery\src\jquery.js" />
     <Content Include="assets\vendor\jquery\src\manipulation.js" />
-    <Content Include="assets\vendor\jquery\src\manipulation\support.js" />
-    <Content Include="assets\vendor\jquery\src\manipulation\var\rcheckableType.js" />
-    <Content Include="assets\vendor\jquery\src\manipulation\_evalUrl.js" />
     <Content Include="assets\vendor\jquery\src\offset.js" />
     <Content Include="assets\vendor\jquery\src\outro.js" />
     <Content Include="assets\vendor\jquery\src\queue.js" />
-    <Content Include="assets\vendor\jquery\src\queue\delay.js" />
-    <Content Include="assets\vendor\jquery\src\selector-native.js" />
-    <Content Include="assets\vendor\jquery\src\selector-sizzle.js" />
-    <Content Include="assets\vendor\jquery\src\selector.js" />
     <Content Include="assets\vendor\jquery\src\serialize.js" />
-    <Content Include="assets\vendor\jquery\src\sizzle\dist\sizzle.js" />
-    <Content Include="assets\vendor\jquery\src\sizzle\dist\sizzle.min.js" />
+    <Content Include="assets\vendor\jquery\src\sizzle-jquery.js" />
+    <Content Include="assets\vendor\jquery\src\support.js" />
     <Content Include="assets\vendor\jquery\src\traversing.js" />
-    <Content Include="assets\vendor\jquery\src\traversing\findFilter.js" />
-    <Content Include="assets\vendor\jquery\src\traversing\var\rneedsContext.js" />
-    <Content Include="assets\vendor\jquery\src\var\arr.js" />
-    <Content Include="assets\vendor\jquery\src\var\class2type.js" />
-    <Content Include="assets\vendor\jquery\src\var\concat.js" />
-    <Content Include="assets\vendor\jquery\src\var\hasOwn.js" />
-    <Content Include="assets\vendor\jquery\src\var\indexOf.js" />
-    <Content Include="assets\vendor\jquery\src\var\pnum.js" />
-    <Content Include="assets\vendor\jquery\src\var\push.js" />
-    <Content Include="assets\vendor\jquery\src\var\rnotwhite.js" />
-    <Content Include="assets\vendor\jquery\src\var\slice.js" />
-    <Content Include="assets\vendor\jquery\src\var\strundefined.js" />
-    <Content Include="assets\vendor\jquery\src\var\support.js" />
-    <Content Include="assets\vendor\jquery\src\var\toString.js" />
     <Content Include="assets\vendor\jquery\src\wrap.js" />
     <Content Include="assets\vendor\jquery\test\data\1x1.jpg" />
     <Content Include="assets\vendor\jquery\test\data\ajax\unreleasedXHR.html" />
@@ -392,6 +331,12 @@
     <Content Include="assets\vendor\signalr\jquery.signalR.min.js" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
+    <Content Include="assets\vendor\angular\.bower.json" />
+    <Content Include="assets\vendor\angular\angular.min.js.gzip" />
+    <Content Include="assets\vendor\angular\angular.min.js.map" />
+    <Content Include="assets\vendor\angular\bower.json" />
+    <Content Include="assets\vendor\angular\package.json" />
+    <Content Include="assets\vendor\angular\README.md" />
     <Content Include="assets\vendor\bootstrap\.bower.json" />
     <Content Include="assets\vendor\bootstrap\bower.json" />
     <Content Include="assets\vendor\bootstrap\dist\css\bootstrap-theme.css.map" />
@@ -477,44 +422,20 @@
     <Content Include="assets\vendor\bootstrap\package.json" />
     <Content Include="assets\vendor\bootstrap\README.md" />
     <Content Include="assets\vendor\jquery\.bower.json" />
+    <Content Include="assets\vendor\jquery\.editorconfig" />
+    <Content Include="assets\vendor\jquery\.gitattributes" />
+    <Content Include="assets\vendor\jquery\.gitignore" />
+    <Content Include="assets\vendor\jquery\.gitmodules" />
+    <Content Include="assets\vendor\jquery\.jshintrc" />
+    <Content Include="assets\vendor\jquery\.mailmap" />
     <Content Include="assets\vendor\jquery\bower.json" />
-    <Content Include="assets\vendor\jquery\dist\jquery.min.map" />
-    <Content Include="assets\vendor\jquery\src\sizzle\dist\sizzle.min.map" />
-    <None Include="Scripts\jquery-1.10.2.intellisense.js" />
-    <Content Include="Scripts\jquery-1.10.2.js" />
-    <Content Include="Scripts\jquery-1.10.2.min.js" />
-    <Content Include="Scripts\jquery.signalR-2.0.2.js" />
-    <Content Include="Scripts\jquery.signalR-2.0.2.min.js" />
-    <Content Include="Web.config" />
-    <Content Include="Web.Debug.config">
-      <DependentUpon>Web.config</DependentUpon>
-    </Content>
-    <Content Include="Web.Release.config">
-      <DependentUpon>Web.config</DependentUpon>
-    </Content>
-    <Content Include="Views\Web.config" />
-    <Content Include="Views\Home\Index.cshtml" />
-    <Content Include="Readme.md" />
-    <Content Include="bower.json" />
-    <Content Include="assets\vendor\angular\.bower.json" />
-    <Content Include="assets\vendor\angular\angular.min.js.gzip" />
-    <Content Include="assets\vendor\angular\angular.min.js.map" />
-    <Content Include="assets\vendor\angular\bower.json" />
-    <Content Include="assets\vendor\angular\package.json" />
-    <Content Include="assets\vendor\angular\README.md" />
-    <Content Include="Scripts\jquery-1.10.2.min.map" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="app\directives\" />
-    <Folder Include="assets\vendor\jquery\test\qunit\" />
-    <Folder Include="Models\" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="packages.config" />
-    <Content Include="assets\vendor\signalr\.bower.json" />
-    <Content Include="assets\vendor\signalr\bower.json" />
-    <Content Include="assets\vendor\signalr\LICENSE.md" />
-    <Content Include="assets\vendor\signalr\README.md" />
+    <Content Include="assets\vendor\jquery\component.json" />
+    <Content Include="assets\vendor\jquery\composer.json" />
+    <Content Include="assets\vendor\jquery\CONTRIBUTING.md" />
+    <Content Include="assets\vendor\jquery\jquery.min.map" />
+    <Content Include="assets\vendor\jquery\package.json" />
+    <Content Include="assets\vendor\jquery\README.md" />
+    <Content Include="assets\vendor\jquery\src\.jshintrc" />
     <Content Include="assets\vendor\jquery\test\.jshintignore" />
     <Content Include="assets\vendor\jquery\test\.jshintrc" />
     <Content Include="assets\vendor\jquery\test\data\atom+xml.php" />
@@ -539,15 +460,36 @@
     <Content Include="assets\vendor\jquery\test\data\text.php" />
     <Content Include="assets\vendor\jquery\test\data\with_fries_over_jsonp.php" />
     <Content Include="assets\vendor\jquery\test\xhtml.php" />
-    <Content Include="assets\vendor\jquery\.editorconfig" />
-    <Content Include="assets\vendor\jquery\.jshintrc" />
-    <Content Include="assets\vendor\jquery\.mailmap" />
-    <Content Include="assets\vendor\jquery\component.json" />
-    <Content Include="assets\vendor\jquery\composer.json" />
-    <Content Include="assets\vendor\jquery\CONTRIBUTING.md" />
-    <Content Include="assets\vendor\jquery\jquery.min.map" />
-    <Content Include="assets\vendor\jquery\package.json" />
-    <Content Include="assets\vendor\jquery\README.md" />
+    <Content Include="assets\vendor\signalr\.bower.json" />
+    <Content Include="assets\vendor\signalr\bower.json" />
+    <Content Include="assets\vendor\signalr\LICENSE.md" />
+    <Content Include="assets\vendor\signalr\README.md" />
+    <None Include="Scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="Scripts\jquery-1.10.2.js" />
+    <Content Include="Scripts\jquery-1.10.2.min.js" />
+    <Content Include="Scripts\jquery.signalR-2.0.2.js" />
+    <Content Include="Scripts\jquery.signalR-2.0.2.min.js" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Views\Web.config" />
+    <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Readme.md" />
+    <Content Include="bower.json" />
+    <Content Include="Scripts\jquery-1.10.2.min.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="app\directives\" />
+    <Folder Include="assets\vendor\jquery\src\sizzle\" />
+    <Folder Include="assets\vendor\jquery\test\qunit\" />
+    <Folder Include="Models\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="packages.config" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
